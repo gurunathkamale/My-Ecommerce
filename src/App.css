@@ -1,0 +1,56 @@
+nav{
+  background-color: blueviolet;
+  padding: 10px;
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.btn-success, .bg-success{
+  background: linear-gradient(45deg,black,limegreen);
+}
+.btn-warning, .bg-warning{
+  background: linear-gradient(45deg,black,orange);
+}
+.btn-light, .bg-light{
+  background: linear-gradient(45deg,darkgray,gray);
+}
+.btn-danger, .bg-danger {
+  background: linear-gradient(45deg,black,red);
+}
+.btn-dark, .bg-dark{
+  background: linear-gradient(45deg,black,darkslategray);
+}
+.btn-info, .bg-info{
+  background: linear-gradient(45deg,black,lightblue);
+}
+.btn-primary, .bg-primary{
+  background: linear-gradient(45deg,black,blueviolet);
+}
+.btn-secondary, .bg-secondary{
+  background: linear-gradient(45deg,black,rgb(237, 37, 170));
+}
+
+.table tbody tr td{
+  font-weight: bold;
+}
+
+.contact-img{
+  margin-top: -80px;
+ 
+}
+
+.landing-page{
+  background: white url("Assets/img/bg-grocery.webp") no-repeat scroll center;
+  height: 100vh;
+  background-size: cover;
+  color: white;
+}
+
+.wrapper{
+  background-color: rgba(0,0,0,0.8);
+  height: 100%;
+}
